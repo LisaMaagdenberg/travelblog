@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Travelblog Mike and Lisa</title>
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <!-- how to include a navbar in plain html? php include? -->
+    <nav class="green lighten-2">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">MiLi Travelling</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <li><a href="visited.html">Countries</a></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="travel.html">Travel</a></li>
+          <li><a href="hiking.html">Hiking</a></li>
+          <li><a href="food.html">Food and drinks</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+    <!-- This should be related to the database!! Most recent 3 posts -->
+      <div class="carousel-item">
+        <div class="bg-img" style="background-image: url('../img/Lissabon.jpg')">
+          <div class="onImage">
+            <h2>Lissabon, Portugal</h2>
+            <p>The forgotten capital of Europe</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="bg-img" style="background-image: url('../img/Trolltunga.jpg')">
+          <div class="onImage">
+            <h2>Trolltunga, Norway</h2>
+            <p>A view to remember</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="bg-img" style="background-image: url('../img/Plane.jpg')">
+          <div class="onImage">
+            <h2>On our way!</h2>
+            <p>What will be our next destination?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <!-- This is also db related -->
+      <div class="container row">
+        <div class="col s4 m4">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="../img/Lissabon.jpg" alt="Lissabon">
+              <h2 class="card-title">Blog about Lissabon</h2>
+            </div>
+            <div class="card-content">
+              <p>The first few lines of the blog</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link to this blog</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="../img/Trolltunga.jpg" alt="Trolltunga">
+              <h2 class="card-title">Blog about Trolltunga</h2>
+            </div>
+            <div class="card-content">
+              <p>The first few lines of the blog, that take in a little bit more space than the others. I'm super curious what this will do with the layout!</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link to this blog</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="../img/Plane.jpg" alt="Plane">
+              <h2 class="card-title">Blog about Flying</h2>
+            </div>
+            <div class="card-content">
+              <p>The first few lines of the blog. I like flying a lot blablabla </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link to this blog</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="../img/Trolltunga.jpg" alt="Trolltunga">
+              <h2 class="card-title">Blog about Norway</h2>
+            </div>
+            <div class="card-content">
+              <p>The first few lines of the blog</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link to this blog</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="../img/Mookerheide.jpg" alt="Mookerheide">
+              <h2 class="card-title">Blog about Netherlands</h2>
+            </div>
+            <div class="card-content">
+              <p>The first few lines of the blog, the length is different</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link to this blog</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="../img/beer.jpg" alt="Beers">
+              <h2 class="card-title">Blog about Germany</h2>
+            </div>
+            <div class="card-content">
+              <p>The first few lines of the blog</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link to this blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container row">
+        <div class="col s6 m6">
+          <div class="card green lighten-5">
+            <div class="card-content green-text text-lighten-2">
+              <h2 class="card-title">Countries visited:</h2>
+              <h2 class="no-margin-bottom">4</h2>
+            </div>
+            <div class="card-action">
+              <a href="visited.html">Show them!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m6">
+          <div class="card green lighten-5">
+            <div class="card-content green-text text-lighten-2">
+              <h2 class="card-title">Blogs posted:</h2>
+              <h2 class="no-margin-bottom">6</h2>
+            </div>
+            <div class="card-action">
+              <a href="history.html">Show them!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <button class="carousel-btn" onClick="toLeft()">&#10094;</button>
+      <button class="carousel-btn btn-right" onClick="toRight()">&#10095;</button>
+    </div>
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../js/carousel.js"></script>
+  </body>
+</html>
